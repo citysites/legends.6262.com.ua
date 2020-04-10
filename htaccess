@@ -1,0 +1,54 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page3243087.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^legends/$ page3243087.html [NC]
+RewriteRule ^legends//$ page3243087.html [NC]
+
+RewriteRule ^mineralnievodi$ page3483777.html [NC]
+RewriteRule ^mineralnievodi/$ page3483777.html [NC]
+
+RewriteRule ^solzavodi$ page3557651.html [NC]
+RewriteRule ^solzavodi/$ page3557651.html [NC]
+
+RewriteRule ^shnurkovskaya$ page3614532.html [NC]
+RewriteRule ^shnurkovskaya/$ page3614532.html [NC]
+
+RewriteRule ^villamariya$ page3653667.html [NC]
+RewriteRule ^villamariya/$ page3653667.html [NC]
+
+RewriteRule ^aboutprogect$ page3623207.html [NC]
+RewriteRule ^aboutprogect/$ page3623207.html [NC]
+
+RewriteRule ^monopoliyakrona$ page3671285.html [NC]
+RewriteRule ^monopoliyakrona/$ page3671285.html [NC]
+
+RewriteRule ^bankovskaya$ page3758668.html [NC]
+RewriteRule ^bankovskaya/$ page3758668.html [NC]
+
+RewriteRule ^kupecheskiedoma$ page3844410.html [NC]
+RewriteRule ^kupecheskiedoma/$ page3844410.html [NC]
+
+RewriteRule ^uchebniezavedeniya$ page3901581.html [NC]
+RewriteRule ^uchebniezavedeniya/$ page3901581.html [NC]
+
+RewriteRule ^parallelnayaulica$ page3960819.html [NC]
+RewriteRule ^parallelnayaulica/$ page3960819.html [NC]
+
+RewriteRule ^keramproizvodstvo$ page4013135.html [NC]
+RewriteRule ^keramproizvodstvo/$ page4013135.html [NC]
+
+RewriteRule ^novoslavyanskaya$ page4072853.html [NC]
+RewriteRule ^novoslavyanskaya/$ page4072853.html [NC]
+
+RewriteRule ^epilog$ page4147973.html [NC]
+RewriteRule ^epilog/$ page4147973.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6234-3965-4533-b563-336437633763/favicon_1.ico [R=302,L]
+
