@@ -1,5 +1,5 @@
-# Autodeploy
+# Hosting
 
-Проект автоматически обновляется на сервисе amazon s3, при любом коммите в master-ветку этого репозитория
+Проект работает на github pages, т.е. не требует отдельного хостинга, а запусакается прям с github.
 
-[![Deploy Status](https://github.com/nikosid/legends6262comua/workflows/CD/badge.svg)](https://github.com/nikosid/legends6262comua/actions)
+Для полноценной работы проекта пришлось переименовать исходные имена файлов в те, которые соответствуют рерайтам.
